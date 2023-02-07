@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+
+Class UserMainCode
+{
+
+   public String addNumberStrings(input1,String input2){
+	
+	BigDecimal x = newBigDecimal(input1);
+	BigDecimal y = newBigDecimal(input2);
+	return String.valueOf(x.add(y));
+   }
+}
